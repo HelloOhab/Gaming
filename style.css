@@ -42,13 +42,23 @@ header{
     box-shadow: var(--box-shadow);
     padding: 25px 0px;
 }
-
 .nav-wrapper{
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-
+.nav-wrapper .logo img{
+    width: 86px;
+    padding-right: 10px;
+}
+.nav-wrapper .logo a{
+    color: var(--primary-text);
+    font-size: 4.5rem;
+    font-weight: 700;
+}
+.nav-wrapper .logo .game-title{
+    color: var(--pink);
+}
 .menu_wrapper{
     display: flex;
     align-items: center;
@@ -122,19 +132,16 @@ header{
     padding: 20px 0px 0px 0px;
     position: relative;
 }
-
-
-.hero-left-shape{
-    background-image: url('./img/hero_left_shape.png');
+.hero-left-shape {
+    background-image: url('./img/Group 14.png');
     background-repeat: no-repeat;
     height: 100%;
-    width: 47%;
+    width: 57%;
     position: absolute;
-    left: 0;
+    left: -120px;
     top: 0;
-    background-size: contain;
+    background-size: cover;
 }
-
 .hero-left{
     position: relative;
     width: 50%;
@@ -276,7 +283,7 @@ header{
 .game-card{
     max-width: 300px;
     width: 100%;
-    transition: .5s;
+    transition: all 5s ease;
 }
 
 .game-thumb{
@@ -285,7 +292,8 @@ header{
     margin-bottom: 24px;
     overflow: hidden;
     position: relative;
-    transition: .5s;
+    transition: all 5s ease;
+
 }
 
 .game-thumb::after {
@@ -297,6 +305,7 @@ header{
     top: 0;
     left: 0;
     opacity: 0;
+    transition: all .5s ease;
 }
 .game-thumb img{
     border-radius: 10px;
@@ -311,6 +320,7 @@ header{
     opacity: 0;
     cursor: pointer;
     text-align: center;
+    transition: all .5s ease;
 }
 
 .hover-icon img{
@@ -410,10 +420,9 @@ header{
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: auto;
 } */
+
+
 .button-all ul {
-    /* display: grid; */
-    /* grid-template-columns: repeat(5, 1fr); */
-    /* grid-template-rows: auto; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -465,11 +474,8 @@ header{
 }
 .footer-wraper .logo a{
     color: #fff;
-    font-family: Work Sans;
     font-size: 45px;
-    font-style: normal;
     font-weight: 700;
-    line-height: normal;
 }
 .footer-wraper .logo .game-title{
     color: var(--pink);
