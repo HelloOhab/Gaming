@@ -412,12 +412,6 @@ header{
 .button-all{
     padding: 0px 0px;
 }
-/* .button-all ul{
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: auto;
-} */
-
 
 .button-all ul {
     display: flex;
@@ -564,7 +558,7 @@ header{
         align-items: center;
     }
     .hero-right > img {
-        width: 300px;
+        width: 150px;
     }
     .about-section {
         background: transparent;
@@ -712,8 +706,4 @@ header{
         text-align: center;
         padding-bottom: 30px;
     }
-}
-
-h1{
-    transition: .4 all ease;
 }
