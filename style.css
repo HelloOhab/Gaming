@@ -670,13 +670,13 @@ header{
         width: 220px;
     }
     .about-left {
-        width: 50%;
+        width: 40%;
     }
     .about-left img {
         width: 100%;
     }
     .about-right {
-        width: 40%;
+        width: 60%;
         text-align: right;
     }
     .thumb-wrapper img {
@@ -695,15 +695,46 @@ header{
         text-align: center;
     }
     .features-left .features-content h2 {
-        font-size: 38px;
+        font-size: 3rem;
         line-height: 45px;
         text-align: center;
+        max-width: 100%;
     }
     .game-wrapper {
-        justify-content: space-evenly;
+        justify-content: center;
+        gap: 30px;
     }
     .game-des {
         text-align: center;
         padding-bottom: 30px;
+    }
+    .hero-left h2 {
+        font-size: 2.8rem;
+    }
+    .hero-left h1 {
+        font-size: 5.5rem;
+
+    }
+    .hero-left-shape {
+        width: 68%;
+        left: -183px;
+    }
+    .thumb-second-image img {
+        width: 200px;
+    }
+    .thumb-second-image {
+
+        top: 58%;
+        left: -21%;
+    }
+    .button-all ul li a {
+        font-size: 1.2rem;
+    }
+    .button-wraper {
+        padding-top: 40px;
+        padding-bottom: 70px;
+    }
+    .features-wrapper {
+        padding: 62px 0px;
     }
 }
