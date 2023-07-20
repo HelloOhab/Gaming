@@ -399,6 +399,7 @@ header{
 
 /* Button Section */
 .button-wraper{
+    padding-top: 80px;
     padding-bottom: 120px;
 }
 .button-all{
