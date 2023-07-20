@@ -16,9 +16,13 @@
     box-sizing: border-box;
 }
 
+html{
+    font-size: 62.5%;
+}
+
 body{
     font-family: var(--fonts);
-    font-size: 18px;
+    font-size: 1.8rem;
 }
 
 ul{
@@ -78,7 +82,7 @@ header{
     border-radius: 8px;
 }
 
-.menu_wrapper .cta-btn span{
+.menu_wrapper .cta-btn .follow-us{
     margin-right: 8px;
 }
 
@@ -349,7 +353,6 @@ header{
     width: 40%;
 }
 
-
 .features-left .features-content h2{
     color: var(--primary-text);
     font-size: 48px;
@@ -358,23 +361,14 @@ header{
     max-width: 75%;
     display: inline-block;
 }
-
+.text-right{
+    text-align: right;
+}
 .features-left .features-content h2 span{
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-}
-
-.features-right{
-    width: 60%;
-}
-.thumb-wrapper {
-    text-align: right;
-}
-
-.text-right{
-    text-align: right;
 }
 .features-content p{
     color: var(--secondary-text);
@@ -384,6 +378,24 @@ header{
     line-height: 30px;
     padding-top: 20px;
 }
+.features-right{
+    width: 60%;
+}
+.thumb-wrapper {
+    text-align: right;
+    position: relative;
+}
+.thumb-wrapper > img {
+    width: 540px;
+}
+.thumb-second-image img {
+    width: 300px;
+}
+.thumb-second-image {
+    position: absolute;
+    top: 56%;
+    left: 6%;
+}
 
 /* Button Section */
 .button-wraper{
@@ -392,10 +404,22 @@ header{
 .button-all{
     padding: 0px 0px;
 }
-.button-all ul{
+/* .button-all ul{
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: auto;
+} */
+.button-all ul {
+    /* display: grid; */
+    /* grid-template-columns: repeat(5, 1fr); */
+    /* grid-template-rows: auto; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.button-all ul li {
+    width: 20%;
 }
 .button-all ul li a img{
     width: 45px;
@@ -418,6 +442,7 @@ header{
     font-size: 18px;
     font-weight: 600;
     border: 1px solid transparent;
+    transition: all .5s ease;
 }
 .button-all ul li a:hover{
     border-radius: 50px;
@@ -559,9 +584,8 @@ header{
     .features-content p {
         text-align: center;
     }
-    .button-all ul {
-        grid-template-columns: repeat(3, 1fr);
-        justify-items: center;
+    .button-all ul li {
+        width: 33.33%;
     }
     .button-all ul li a {
         font-size: 13px;
@@ -626,4 +650,8 @@ header{
         text-align: center;
         padding-bottom: 30px;
     }
+}
+
+h1{
+    transition: .4 all ease;
 }
