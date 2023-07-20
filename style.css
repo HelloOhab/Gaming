@@ -254,7 +254,6 @@ header{
 .game-section-header h2{
     font-size: 4.8rem;
     color: var(--primary-text);
-    font-size: 48px;
     font-weight: 700;
 }
 
@@ -509,6 +508,9 @@ header{
 }
 
 @media screen and (max-width:576px){
+    html{
+        font-size: 52.5%;
+    }
     .container{
         max-width: 90%;
         margin: 0 auto;
@@ -535,26 +537,41 @@ header{
     .s-thumb img {
         width: 230px;
     }
+    .hero-left-shape {
+        display: none;
+    }
+
     .hero-left {
-        position: relative;
-        width: 70%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        order: 2;
+        width: 100%;
+        background-image: url('./img/Group 14.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        padding: 40px 0px;
+    }
+    .hero-left h2 {
+        font-size: 2.8rem;
+    }
+    .hero-left h1 {
+        font-size: 5.5rem;
     }
     .hero-right {
         flex-direction: column;
+        align-items: center;
     }
-    .hero-left {
-        display: flex;
-        flex-direction: column;
-        order: 2;
+    .hero-right img {
+        width: 300px;
     }
-    .hero-left h2 {
-        font-size: 28px;
-    }
-    .hero-left h1 {
-        font-size: 55px;
+    .about-section {
+        background: transparent;
+        padding: 60px 0px 45px 0px;
     }
     .about-left img {
-        width: 100%;
+        max-width: 100%;
     }
     .about-content-wrapper {
         flex-direction: column;
@@ -570,14 +587,30 @@ header{
         flex-direction: inherit;
         justify-content: center;
     }
+    .game-section-header h2 {
+        font-size: 3rem;
+    }
     .game-card {
         max-width: 300px;
     }
+    .features-right {
+        width: 100%;
+    }
+    .thumb-wrapper {
+        text-align: center;
+    }
     .thumb-wrapper img {
-        width: 400px;
+        width: 280px;
+    }
+    .thumb-second-image img {
+        width: 130px;
     }
     .features-wrapper {
         flex-direction: column;
+    }
+    .features-left .features-content h2 {
+        font-size: 3rem;
+        line-height: 1.3em;
     }
     .features-left {
         width: 100%;
@@ -596,9 +629,6 @@ header{
     }
     nav.main-menu {
         padding-top: 20px;
-    }
-    .hero-left {
-        padding-top: 50px;
     }
     .game-des {
         text-align: center;
