@@ -161,13 +161,13 @@ header{
 
 .hero-left h2{
     color: var(--primary-text);
-    font-size: 48px;
+    font-size: 4.8rem;
     font-weight: 600;
     text-transform: uppercase;
 }
 
 .hero-left h1{
-    font-size: 95px;
+    font-size: 9.5rem;
     font-weight: 800;
     text-transform: uppercase;
     background: var(--gradient);
@@ -214,7 +214,7 @@ header{
 }
 
 .about-right h3{
-    font-size: 48px;
+    font-size: 4.8rem;
     font-weight: 700;
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
     background-clip: text;
@@ -224,7 +224,7 @@ header{
 
 .about-right .about-content p{
     color: #534C64;
-    font-size: 18px;
+    font-size: 1.8rem;
     font-weight: 400;
     line-height: 30px;
     max-width: 78%;
@@ -234,7 +234,7 @@ header{
 }
 
 .about-right .purpose p{
-    font-size: 32px;
+    font-size: 3.2rem;
     font-weight: 700;
     line-height: 45px;
     color: var(--secondary-text);
@@ -242,7 +242,7 @@ header{
 }
 
 .about-right .purpose span{
-    font-size: 20px;
+    font-size: 2rem;
 }
 
 /* Game Section */
@@ -252,7 +252,7 @@ header{
 }
 
 .game-section-header h2{
-    font-size: 48px;
+    font-size: 4.8rem;
     color: var(--primary-text);
     font-size: 48px;
     font-weight: 700;
@@ -268,7 +268,6 @@ header{
 
 .game-section-header p{
     color: #534C64;
-    font-size: 18px;
     font-weight: 400;
     line-height: 30px;
     margin-top: 16px;
@@ -287,7 +286,7 @@ header{
 }
 
 .game-thumb{
-    border-radius: 16px;
+    border-radius: 1.6rem;
     height: 400px;
     margin-bottom: 24px;
     overflow: hidden;
@@ -330,7 +329,7 @@ header{
 
 .hover-icon p{
     color: var(--pink);
-    font-size: 20px;
+    font-size: 2rem;
     font-weight: 600;
 }
 
@@ -345,7 +344,7 @@ header{
 
 .game-card .game-des p{
     color: #534C64;
-    font-size: 20px;
+    font-size: 2rem;
     font-weight: 500;
     line-height: 30px;
 }
@@ -365,7 +364,7 @@ header{
 
 .features-left .features-content h2{
     color: var(--primary-text);
-    font-size: 48px;
+    font-size: 4.8rem;
     font-weight: 700;
     line-height: 60px;
     max-width: 75%;
@@ -383,7 +382,6 @@ header{
 .features-content p{
     color: var(--secondary-text);
     text-align: right;
-    font-size: 18px;
     font-weight: 400;
     line-height: 30px;
     padding-top: 20px;
@@ -449,7 +447,6 @@ header{
     align-items: center;
     justify-content: center;
     color: #0B0223;
-    font-size: 18px;
     font-weight: 600;
     border: 1px solid transparent;
     transition: all .5s ease;
@@ -474,7 +471,7 @@ header{
 }
 .footer-wraper .logo a{
     color: #fff;
-    font-size: 45px;
+    font-size: 4.5rem;
     font-weight: 700;
 }
 .footer-wraper .logo .game-title{
@@ -504,7 +501,7 @@ header{
 .footer-wraper p{
     color: rgba(255, 255, 255, 0.60);
     text-align: center;
-    font-size: 16px;
+    font-size: 1.6rem;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
